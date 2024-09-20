@@ -1,0 +1,754 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 340px;
+    max-width: 1200px;
+   
+   
+}
+.block1{
+    width: 1150px;
+    height: 575px;
+    background-color: #f5e8e7 ;
+    
+   
+}
+
+.header{
+    padding: 15px 30px 5px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.name {
+   
+    width: 100px;
+}
+
+.content1{
+    display: flex;
+    align-items:flex-start;
+    padding-left: 150px;
+  
+}
+
+.imgHands{
+    width: 425px;
+    height: 495px;
+
+
+}
+.headerImg {
+    width: 425px;
+    height: 495px;
+}
+
+.h2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+    
+
+
+.headerP {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.headers, .button1, .button2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    
+}
+
+.text{
+    padding-top: 30px;
+    padding-right: 60px;
+}
+
+.button1 {
+    padding: 10px 25px;
+    border: #D7238F ;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    background-color: #D7238F;
+    color: #f5e8e7;  
+}
+
+.button1:hover {
+    color: #D7238F;
+    background-color: #f5e8e7;
+}
+
+.button2 {
+    padding: 10px 25px;
+    border: #D7238F ;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all;
+    background-color: #D7238F;
+    color: #f5e8e7;
+    text-align: center;  
+}
+
+.button2:hover {
+    color: #D7238F;
+    background-color: #f5e8e7;
+}
+.block2 {
+    width: 1150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px 0 100px;
+    
+    
+}
+
+.Photo {
+    width: 345px;
+    height: 454px;
+    border-top: 1px solid #D7238F;
+    border-right: 1px solid #D7238F;
+    padding-top: 20px;
+}
+
+.aboutMe {
+    width: 430px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+   
+    
+}
+.Portfolio {
+    width: 325px;
+    height: 434px;
+    
+}
+
+.list {
+    list-style-image: url(./IMG/Ellipse\ 2.png);
+    line-height: 1.5em;
+}
+
+.block3 {
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    margin: 0 80px 100px;
+    
+}
+
+.St1, .St2, .St3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.manicText, .pokritieText, .narashivanieText {
+    
+    margin-top: -10px;
+    flex-basis: 75%;
+}
+
+
+.manic {
+    padding-top: 15px;
+}
+
+.narashivanie {
+    padding-top: 23px;
+}
+
+.STH {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+.STP {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style:normal;
+    font-size: 14px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.block4 {
+    width: 1150px;
+    height: 770px;
+    background-image: url(./IMG/фон\ ман.png);
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    padding-bottom: 100px;
+    position: relative;
+   
+    
+    
+}
+
+.price, .galery {
+    width: 100%;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.list2 {
+    width: 73%;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid #D7238F;
+    
+}
+.priceList {
+    
+    list-style-type: none;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    padding: 0 100px;
+   
+    
+}
+
+.position, .rub {
+    padding: 30px 0;
+}
+.rub {
+    text-align: right;
+}
+.Scr {
+    text-align: left;
+    padding-left: 20px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+}
+.block5 {
+    width: 1150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.photogalery {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    
+}
+
+.nailPhoto {
+    flex-basis: 25%;
+    height: 295px;
+    width: 319px;
+    
+}
+
+.nailPhoto1 {
+   height: 85%;
+   width: 85%;
+   object-fit: cover;
+   
+
+}
+
+.more  {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #D7238F;
+    margin-bottom: 30px;
+    
+}
+
+.block6 {
+    display: flex;
+    justify-content: center;
+    width: 1150px;
+    height: 300px;
+    padding: 30px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7238F;
+    width: 575px;
+    height: 304px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 16px;
+    letter-spacing: 0.01;
+    text-align: left;
+    color: aliceblue;
+}
+
+
+
+.whatsapp, .telegram {
+    width: 35px;
+    height: 35px;
+}
+
+
+.adress, .contacts {
+    padding-top: 30px;
+} 
+.block7 {
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Liza {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 14px;
+    letter-spacing: 0.01;
+
+}
+
+
+.pop-up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    display: none;
+
+}
+
+.pop-up img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 62%;
+}
+
+.pop-up span {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+iframe {
+    width: 575px;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 431px) {
+
+
+    .container{
+        margin: 0;
+        max-width: 431px;
+
+
+}
+
+.block1{
+    width: auto;
+    height: 275px;
+    background-color: #f5e8e7 ;
+    
+   
+}
+
+
+.imgHands {
+    width: 145px;
+    height: 177px;
+    padding-left: 30px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:auto;
+    padding: 0;
+}
+
+.name {
+    width: 50px;
+}
+
+.headers, .button1, .button2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8px;
+}
+
+.text {
+    width: 211px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+
+.headerP {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8px;
+    margin-bottom: 28px;
+}
+
+.h2 {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.headerImg {
+    width: 145px;
+    height: 185px;
+    padding-top: 12px;
+}
+
+.content1 {
+    padding: 0;
+}
+
+.block2 {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px;
+}
+
+.Photo {
+    width: 145px;
+    height: 169px;
+    border-top: 1px solid #D7238F;
+    border-right: 1px solid #D7238F;
+    padding-top: 18px;
+}
+
+.aboutMe {
+    width: 195px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 11px;
+}
+
+
+.Portfolio {
+    width: 127px;
+    height: 168px;
+}
+
+
+.block3 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px;
+
+}
+
+.Icon, .Icon2, .Icon3 {
+
+    width: 80px;
+}
+
+.STH {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 9px;
+    text-align: center;
+}
+
+.STP {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style:normal;
+    font-size: 7px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.St2 {
+    padding-top: 18px;
+}
+
+.block4 {
+    width: auto;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    position: relative;
+    background-size: 385px;
+}
+
+.price {
+    font-size: 8px;
+
+}
+
+.list2 {
+    width: 57%;
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 1px solid #D7238F;
+}
+
+.position, .rub {
+    padding: 6px;
+}
+
+.priceList {
+    list-style-type: none;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    padding: 0 20px;
+}
+
+.Scr {
+    text-align: left;
+    padding-left: 26px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 6px;
+}
+
+.price, .galery {
+    width: 100%;
+    height: 1px;
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 6px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+
+.block5 {
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.photogalery {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.nailPhoto {
+    flex-basis: 27%;
+    height: 145px;
+}
+
+.nailPhoto1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.map {
+    width: 412px;
+}
+
+.block6 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 300px;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7238F;
+    width: 412px;
+    height: 151px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9px;
+    letter-spacing: 0.01;
+    text-align: left;
+    color: aliceblue;
+}
+
+.map1 {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    
+    
+
+}
+
+.more {
+    text-align: center;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10px;
+    color: #D7238F;
+    margin-bottom: 30px;
+}
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.block7 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Liza {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 10px;
+    letter-spacing: 0.01;
+
+}
+
+.pop-up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    display: none;
+
+}
+
+.pop-up img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 55%;
+    border-radius: 8px;
+}
+
+.pop-up span {
+    position: fixed;
+    top: 39px;
+    right: 20px;
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 31px;
+    border-radius: 17%;
+    cursor: pointer;
+}
+}
+
+@media screen and (max-width: 390px) {
+
+
+    .container{
+        margin: 0;
+        max-width: 390px;
+    }
+
+    .priceList {
+        padding: 0 14px;
+    }
+
+    .headerP {
+        margin-bottom: 8px;
+    }
+}
