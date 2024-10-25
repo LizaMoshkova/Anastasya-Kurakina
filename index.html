@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./normalize.css">
     <link rel="icon" href="./IMG/favicon.png" type="image/x-icon">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 </head>
 <body>
     <div class="container">
@@ -29,7 +30,25 @@
                 <div class="text">
                     <h2 class="h2">Идеальный маникюр для идеальных моментов</h2>
                     <p class="headerP">Качественный маникюр на сертифицированных и безопасных материалах от професстонального мастера с большим опытом работы. </p>
-                    <a href="https://wa.me/79276762326"><button class="button2">Записаться<br>онлайн</button></a>
+                    <button type="button" class="btn" id="c-btn">Записаться<br>онлайн</button>
+                    <div id="contact">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="f0c50225-f240-4640-ac59-9c96e43b2c98">
+                    <ul>
+                        <h1 class="h1_form">Оставьте свой номер телефона и мы с Вами свяжемся</h1>
+                        <li>
+                          <input type="text" name="name" id="name" placeholder="&#xf2c0; Ваше имя">
+                          <input type="tel" name="tel" id="tel" placeholder="&#xf003; Ваш номер телефона">
+                        </li>
+                        <li>
+                          <textarea name="message" id="message" placeholder="&#xf040; Желаемая дата и время"></textarea>
+                        </li>
+                        <li>
+                          <input type="submit" value="Отправить" class="btn" id="submit">
+                        </li>
+                      </ul>
+                    </form>
+                    </div>
                 </div>
                 <div class="imgHands">
                     <img class="headerImg" src="./IMG/ииипипатрптпр.png" alt="">
@@ -193,8 +212,55 @@
                 document.querySelector('.pop-up').style.display = 'none';
     
             }
-        </script>
-
+        </script> 
+        <script>
+            (function () {
+              $("html").addClass("js");
+            
+              var contactForm = {
+                container: $("#contact"),
+                config: {
+                  effect: "slideToggle",
+                  speed: 200
+                },
+            
+                init: function (config) {
+                  $.extend(this.config, config);
+            
+                  $("#c-btn").on("click", this.show);
+                },
+            
+                show: function () {
+                  var cf = contactForm,
+                    container = cf.container,
+                    config = cf.config;
+            
+                  if (container.is(":hidden")) {
+                    cf.close.call(container);
+                    container[config.effect](config.speed);
+                  }
+                },
+            
+                close: function () {
+                  var $this = $("#contact");
+            
+                  if ($this.find("span.close").length) return;
+            
+                  $("<span class=close>-</span>")
+                    .prependTo(this)
+                    .on("click", function () {
+                      $this[contactForm.config.effect](contactForm.config.speed);
+                    });
+                }
+              };
+            
+              contactForm.init({
+                effect: "fadeToggle",
+                speed: 200
+              });
+            })();
+          
+          </script>  
 
 
 
